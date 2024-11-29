@@ -4,6 +4,14 @@ body {
     background-color: #2E2F42;
     height: 3300px;
 }
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 ul {
     list-style-type: none;
 }
@@ -45,6 +53,13 @@ a {
     color: #4d5ae5;
 }
 
+.hero {
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-left: 472px;
+    padding-bottom: 188px;
+    }
+
 .hero-text {
     font-weight: 700;
     font-size: 56px;
@@ -64,4 +79,80 @@ padding-top: 16px;
 padding-right: 32px;
 padding-left: 32px;
 padding-bottom: 16px;
+margin-left: 636px;
+}   
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.main {
+    background-color: #FFFFFF;
+    color: #2e2f42;
+    padding-right: 156px;
+    padding-left: 156px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.main-list {
+    width: 264;
+    height: 104;
+}
+
+.main-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-list p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background: #f4f4fd;
+    margin-top: 0px;
+}
+
+.team-list {
+    display: flex;
+}
+
+.team-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    }
+
+    
+
+.portfolio {
+    background-color: #FFFFFF;
+    
+}
+
+.portfolio-list {
+    display: flex;
+}
+
+.ftr {
+    color: #f4f4fd;
+}
+
+.ftr>.logo {
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
