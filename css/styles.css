@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    height: 3300px;
 }
 h2 {
     font-weight: 700;
@@ -64,10 +63,6 @@ nav .accent {
 
 .hero {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-left: 472px;
-    padding-bottom: 188px;
     }
 
 .hero-text {
@@ -88,14 +83,7 @@ nav .accent {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-    border: none;
     background-color: #4d5ae5;
-    border-radius: 4px; 
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-bottom: 16px;
-    margin-left: 636px;
 }   
 
 .hero-btn:hover, .hero-btn:focus {
@@ -104,19 +92,7 @@ nav .accent {
 
 .main {
     background-color: #FFFFFF;
-    color: #2e2f42;
-    padding-right: 156px;
-    padding-left: 156px;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    margin-bottom: 0px;
-    
-    
-}
-
-.main-list {
-    width: 264px;
-    height: 104px;
+    color: #2e2f42;  
 }
 
 .main-li {
@@ -136,7 +112,6 @@ nav .accent {
 
 .team {
     background: #f4f4fd;
-    margin-top: 0px;
 }
 
 .our-team {
@@ -149,10 +124,6 @@ nav .accent {
     text-transform: capitalize
 }
 
-.team-list {
-    display: flex;
-}
-
 .team-li {
     background-color: #FFFFFF;
 }
@@ -161,10 +132,6 @@ nav .accent {
     background-color: #FFFFFF;
     
 }   
-
-.portfolio-list {
-    display: flex;
-}
 
 .ftr {
     background-color: #2e2f42;
